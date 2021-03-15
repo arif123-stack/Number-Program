@@ -1,21 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 #Number program in python
-
-
-# In[2]:
-
-
 # 1.Program to Check Disarium number
-
-
-# In[5]:
-
-
 num=int(input("Enter any number"))
 sum=0
 j=1
@@ -35,18 +19,8 @@ if sum==num:
     print("Number is Disarium")
 else:
     print("Number is not Disarium")
-    
-
-
-# In[6]:
-
-
+#--------------------------------------------------------------------------------------------------------------------------    
 # 2.Program to determine whether a given number is a happy number
-
-
-# In[ ]:
-
-
 num=int(input("Enter the number"))
 temp=num
 while sum!=1 and sum!=4:
@@ -60,18 +34,8 @@ if(sum==1):
     print(num,"Is Happy number")
 else:
     print(num,"Is not Happy number")
-    
-
-
-# In[ ]:
-
-
-# 3.Program to determine whether a given number is a Harshad number
-
-
-# In[ ]:
-
-
+ #------------------------------------------------------------------------------------------------------------------------------------   
+ # 3.Program to determine whether a given number is a Harshad number
 num=int(input("Enter the number"))
 temp=num
 sum=0
@@ -85,19 +49,6 @@ else:
     print(num+"is Harshad number")
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
